@@ -1,4 +1,4 @@
-//[ A ] 1 to N
+//A. 1 to N
 #include<iostream>
 using namespace std;
 int main(){
@@ -13,7 +13,7 @@ int main(){
     return 0;
 } 
 
-//[B] Even Numbers
+//B. Even Numbers
 #include<iostream>
 using namespace std;
 int main(){
@@ -32,3 +32,6 @@ int main(){
         }
     return 0;
 }
+
+
+//D. Fixed Password
