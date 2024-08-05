@@ -1,16 +1,3 @@
-//E. Area of a Circle
-#include<iostream>
-#include<iomanip>
-using namespace std;
-int main(){
-    double n;
-    cin>>n;
-    double pi = 3.141592653;
-    double area = pi * (n*n);
-    cout<<fixed<<setprecision(9);
-    cout<<area;
-    return 0;
-}
 
 //A. Say Hello With C++
 #include <bits/stdc++.h>
@@ -45,5 +32,30 @@ int main(){
     cout<<x<<" + "<<y<<" = "<<x+y<<endl;
     cout<<x<<" * "<<y<<" = "<<x*y<<endl;
     cout<<x<<" - "<<y<<" = "<<x-y<<endl;
+    return 0;
+}
+
+//D. Difference
+#include<iostream>
+using namespace std;
+int main(){
+    long long a,b,c,d,x;
+    cin>>a>>b>>c>>d;
+    x=(a*b)-(c*d);
+    cout<<"Difference = "<<x;
+    return 0;
+}
+
+//E. Area of a Circle
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+    double n;
+    cin>>n;
+    double pi = 3.141592653;
+    double area = pi * (n*n);
+    cout<<fixed<<setprecision(9);
+    cout<<area;
     return 0;
 }
