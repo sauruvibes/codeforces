@@ -89,3 +89,21 @@ int main(){
     }
     return 0;
 }
+
+//L. The Brothers
+#include<iostream>
+using namespace std;
+int main(){
+    string x;
+    string y;
+    cin>>x>>y;
+    string z;
+    string a;
+    cin>>z>>a;
+    if( y == a){
+        cout<<"ARE Brothers\n";
+    }else{
+        cout<<"NOT\n";
+    }
+    return 0;
+}
