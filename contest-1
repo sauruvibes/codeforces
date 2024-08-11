@@ -16,6 +16,7 @@ int main(){
     return 0;
 }
 
+D. Ali Baba and Puzzles
 #include<iostream>
 using namespace std;
 int main(){
