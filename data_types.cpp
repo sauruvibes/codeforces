@@ -183,6 +183,8 @@ int main(){
     return 0;
 }
 
+
+F. Digits Summation
 #include<iostream>
 using namespace std;
 int main(){
