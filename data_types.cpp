@@ -182,3 +182,16 @@ int main(){
     }   
     return 0;
 }
+
+#include<iostream>
+using namespace std;
+int main(){
+    long long n,m;
+    cin>>n>>m;
+    int lastDig1 = n%10;
+    int lastDig2 = m%10;
+    int sum = 0;
+    sum = lastDig1 + lastDig2;
+    cout<<sum<<endl;
+    return 0;
+}
