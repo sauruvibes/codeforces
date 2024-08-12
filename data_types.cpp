@@ -184,7 +184,7 @@ int main(){
 }
 
 
-F. Digits Summation
+//F. Digits Summation
 #include<iostream>
 using namespace std;
 int main(){
