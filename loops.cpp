@@ -80,7 +80,7 @@ int main(){
     return 0;
 }
 
-P. Shape1
+//P. Shape1
 #include<iostream>
 using namespace std;
 int main(){
