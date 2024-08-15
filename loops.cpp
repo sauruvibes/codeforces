@@ -94,3 +94,6 @@ int main(){
     }
     return 0;
 }
+
+//T. Shape2
+
