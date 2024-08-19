@@ -41,3 +41,14 @@ int main(){
     }
     return 0;
 }
+
+//A. Winter Sale
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    double x,y;
+    cin>>x>>y;
+    double discount = y*(100/(100-x));
+    cout<<fixed<<setprecision(2)<<discount;
+    return 0;
+}
