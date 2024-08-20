@@ -135,3 +135,33 @@ int main() {
     }
     return 0;
 }
+
+//C. Even, Odd, Positive and Negative
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int evenCount = 0;
+    int oddCount = 0;
+    int posCount = 0;
+    int negCount = 0;
+    int t;
+    cin>>t;
+    for(int i=0; i<t; i++){
+        int n;
+        cin>>n;     
+        if(n % 2 == 0){
+        evenCount++;
+        }else{
+        oddCount++;
+        }if(n > 0){
+        posCount++;
+        }else if(n<0){
+        negCount++;
+        }    
+    }
+        cout<<"Even: "<<evenCount++<<endl;
+        cout<<"Odd: "<<oddCount++<<endl;
+        cout<<"Positive: "<<posCount++<<endl;
+        cout<<"Negative: "<<negCount++<<endl;
+    return 0;
+}
