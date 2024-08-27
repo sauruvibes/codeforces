@@ -1,5 +1,4 @@
 //A. Create A New String
-
 #include<iostream>
 using namespace std;
 int main(){
