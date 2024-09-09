@@ -10,7 +10,6 @@ int main(){
     return 0;
 }
 
-
 //B. Print from 1 to N
 #include<iostream>
 using namespace std;
